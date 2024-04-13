@@ -42,6 +42,7 @@
 /* *************** */
 @media (max-width: 960px) {
   .First_Section {
+    width: 375px;
     /* background-color: hotpink; */
     display: flex;
     flex-direction: column;

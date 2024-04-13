@@ -29,6 +29,7 @@
   @media (max-width: 960px) {
     .First_Section{
       margin: 0px;
+      width: 375px;
     }
     .otp-body{
       width: 343px;
