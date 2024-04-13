@@ -1,0 +1,50 @@
+
+.otp-body{
+    width: 441px;
+    height: 416px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: var(--Radius-6, 16px);
+    background: var(--Blue-Gray-blue-gray-14, #131924);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000; 
+    display: none;
+  }
+  .overlay.active {
+    display: block; 
+  }
+
+  /* *************************** */
+  @media (max-width: 960px) {
+    .First_Section{
+      margin: 0px;
+    }
+    .otp-body{
+      width: 343px;
+      height: 432px;
+      padding: 24px 16px 24px 16px;
+    }
+    .otpip1{
+      width: 46.33px;
+      height: 40px;
+    }
+    .otpip2{
+      width: 46.33px;
+      height: 40px;
+    }
+    .otpip3{
+      width: 46.33px;
+height: 40px;
+    }
+  }

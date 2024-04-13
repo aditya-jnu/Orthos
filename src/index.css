@@ -1,0 +1,25 @@
+@import url('./clash-display.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #0F141B inset; /* Adjust the color and other properties as needed */
+    -webkit-text-fill-color: white; /* Set text color to white */
+}
+input:focus {
+    outline: none; /* Remove the default outline */
+    /* Add a custom box shadow to indicate focus */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+::placeholder {
+    color: #848DA6; /* Change this to whatever color you want */
+}
+
+
+

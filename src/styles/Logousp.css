@@ -1,0 +1,68 @@
+.make {
+  font-family: ClashDisplay-Regular;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 48px;
+  margin-top: 32px;
+  line-height: 36px;
+}
+
+.Contact_Markers1 {
+  display: flex;
+  gap: 1.5rem;
+}
+.Contact_Markers2 {
+  display: flex;
+  gap: 1.45rem;
+}
+.Contact_Markers2 img {
+  width: 20px;
+  height: 16px;
+}
+
+.usp-container {
+  position: relative;
+}
+.usp-overlay {
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+.img-overlay {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 960px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .usplines {
+    display: flex;
+  }
+  .USP {
+    width: 375px;
+    height: 213px;
+    padding: 40px 16px 40px 16px;
+  }
+  .Orthos-Logo {
+    display: flex;
+    justify-content: center;
+    height: 32px;
+  }
+  .make {
+    width: 242px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 900px){
+    .header img{
+        width: 375px;
+        height: 48px;
+    }
+}

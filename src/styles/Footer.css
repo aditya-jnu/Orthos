@@ -1,0 +1,85 @@
+.footer{
+   padding: var(--Space-7, 40px) 85px;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--Radius-5, 12px) var(--Radius-5, 12px) 0px 0px;
+    background: radial-gradient(55.75% 182.95% at 50% 0%, rgba(19, 46, 134, 0.20) 0%, rgba(16, 29, 70, 0.00) 58.19%), var(--Blue-Gray-blue-gray-15, #0F141B);
+}
+/* ******************************** */
+.one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.onee{
+    display: flex;
+    gap: 52px;
+}
+.onee p{
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--Text-text-primary, #E6EAF2);
+}
+/* ********************************** */
+.three{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.three p{
+  color: var(--Text-text-primary, #E6EAF2); 
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+}
+.footicon{
+  cursor: pointer;
+  color: "#A8BAEF";
+  color: var(--Text-text-link, #A8BAEF);
+  text-align: center;
+  font-family: "Font Awesome 6 Brands";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* ************ */
+@media (max-width: 720px){
+  .fot{
+    display: flex;
+    justify-content: center;
+  }
+ .footer{
+  padding: 32px 16px 32px 16px;
+  width: 375px;
+ }
+ .one{
+  width: 343px;
+  height: 68px;
+  flex-direction: column;
+  align-items: flex-start;
+ }
+ .onee{
+  gap: 0px;
+  width: 343px;
+  height: 20px;
+  justify-content: space-between;
+ }
+ .three{
+  width: 343px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+ }
+ .three p{
+  width: 302px;
+ }
+}

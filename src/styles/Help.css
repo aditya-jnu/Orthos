@@ -1,0 +1,88 @@
+.Help{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem ;
+    padding:54px 104px 54px 104px ;
+}
+
+/* *************************************************** */
+.Helpcontent{
+    padding: var(--Space-5, 24px);
+    display: flex;
+    align-items: center;
+    background-color:#131924;
+    border-radius: var(--Radius-6, 16px);
+    width: 78%;
+}
+.que{
+    color: var(--Text-text-primary, #E6EAF2);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+    letter-spacing: -0.04px
+}
+.getintouch{
+    color: var(--Text-text-primary, #9BA8CD);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; 
+}
+.helpbtn{
+   cursor: pointer;
+   background-color:#131924;
+   color: white;
+   display: flex;
+   height: var(--Tokens-Space-button-height-3, 40px);
+   padding: 0px var(--Space-4, 16px);
+   justify-content: center;
+   align-items: center;
+   gap: var(--Space-3, 12px);
+   flex-shrink: 0;
+   border-radius: var(--Radius-4, 8px);
+   border: 1px solid var(--Blue-Gray-blue-gray-8, #6C82AD);
+   width: 182px;
+}
+
+/* *************************************************** */
+.orthosai{
+    color: var(--Text-text-teritiary, #9BA8CD);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* make sure it's above the overlay */
+}
+
+/* *********** */
+@media (max-width: 960px) {
+  .Helpcontent{
+    flex-direction: column;
+    width: 343px;
+    height: 194px;
+  }
+  .orthosai{
+    width: 343px;
+    height: 40px;
+  }
+  .helpbtn{
+    width: 311px;
+  }
+  .orthosai{
+    text-align: center;
+  }
+  .Help{
+    padding: 40px 16px 40px 16px;
+  }
+}

@@ -1,0 +1,100 @@
+.contactus{
+    background-color: #131924;
+    width: 560px;
+    height: 524px ;
+    padding: 24px;
+   border-radius: 16px;
+}
+
+.formip{
+   width: 504px;
+   height: 40px;
+   padding: 8px;
+ margin-bottom: 16px;
+ background-color: #0F141B;
+ color: #C6D2F3;
+
+ font-family: Inter;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 24px; 
+ border-radius: 8px;
+ border: 1px solid #6C82AD;
+}
+.forminp{
+    border: 1px solid #6C82AD;
+    border-radius: 8px;
+    height: 40px;
+    padding: 8px;
+    background-color: #0F141B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    color: #C6D2F3;
+}
+.formlabel{
+    margin-bottom: 8px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.btnn{
+    border:none; font-family:Inter; font-weight:500; font-size:16px; 
+    line-height:24px;
+    color:#E6EAF2;
+    cursor: pointer;
+    border-radius: 8px;
+    background: var(--Blue-Gray-brand-primary, #004CB3);
+    display: flex;
+    height: var(--Tokens-Space-button-height-3, 40px);
+    padding: 0px var(--Space-4, 16px);
+
+    justify-content: center;
+    align-items: center;
+    gap: var(--Space-3, 12px);
+    align-self: stretch;
+    width:343px;
+}
+.btnncancel{
+    cursor:pointer; width:157px; height:40px; border:1px solid #6C82AD; border-radius:8px; background-color:#131924; color:#D9E0EF; font-family:Inter; font-weight:500; font-size:16px; line-height:24px; padding-left:4px; padding-right:4px; 
+}
+
+/* *************************** */
+@media (max-width: 960px){
+    .contactus{
+        padding: 24px 12px;
+        width: 343px;
+        height: 596px;
+    }
+    .tex{
+        width: 319px;
+        height: 72px;
+        font-size: 16px;
+    }
+    .formip{
+        width: 319px;
+        padding: 0px 4px 0px 4px;
+    }
+    .forminp inpp{
+        width: 211px;
+
+    }
+    .flexbtn{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .btnn{
+        width: 319px;
+    }
+    .btnncancel{
+        width: 319px;
+    }
+    
+}
+

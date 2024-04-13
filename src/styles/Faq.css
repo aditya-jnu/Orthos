@@ -1,0 +1,97 @@
+.FAQ_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding: var(--Space-9, 64px) 0px;
+}
+
+/* ****************************************************** */
+.p1{
+    color: var(--Text-text-primary, #E6EAF2);
+    font-family: "ClashDisplay-Regular";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+.p2{
+    color: var(--Text-text-secondary, #9BA8CD);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.content2{
+    width: 860px;
+}
+
+/* ****************************************************** */
+.AccordionRoot{
+    display: flex;
+    flex-direction: column; 
+    padding:0 1rem 0 1rem;
+}
+.customAccordionTrigger{
+    background-color: #0F141B;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.AccordionHeader{
+    background-color: aqua;
+}
+.accord{
+    color: var(--Text-text-secondary, #C6D2F3);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.accordheading{
+    cursor: pointer;
+    color: var(--Text-text-primary, #E6EAF2);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.AccordionChevron{
+    cursor: pointer;
+}
+
+/* ******************** */
+@media (max-width: 960px){
+    .FAQ_section{
+        gap: 48px;
+        padding: 40px 0px 40px 0px;
+    }
+    .content1{
+        width: 375px;
+        height: 136px;
+        gap: 5px;
+        padding: 0px 16px 0px 16px;
+    }
+    .p1{
+        font-weight: 400;
+        width: 343px;
+        height: 72px;
+        text-align: center;
+    }
+    .p2{
+        width: 343px;
+        height: 48px;
+        text-align: center;
+    }
+    .content2{
+        width: 375px;
+        height: 527px;
+        padding: 0px 16px 0px 16px;
+    }
+}
