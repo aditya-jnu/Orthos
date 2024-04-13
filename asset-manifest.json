@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/orthos/static/css/main.11a6c475.css",
+    "main.css": "/orthos/static/css/main.e6b0a9c9.css",
     "main.js": "/orthos/static/js/main.3d9e198b.js",
     "static/media/ClashDisplay-Regular.ttf": "/orthos/static/media/ClashDisplay-Regular.810c6b29f523c5d0ad44.ttf",
     "static/media/ClashDisplay-Regular.woff": "/orthos/static/media/ClashDisplay-Regular.bddfbdc9d46fb063a682.woff",
@@ -8,7 +8,7 @@
     "index.html": "/orthos/index.html"
   },
   "entrypoints": [
-    "static/css/main.11a6c475.css",
+    "static/css/main.e6b0a9c9.css",
     "static/js/main.3d9e198b.js"
   ]
 }
