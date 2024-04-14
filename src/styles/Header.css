@@ -3,6 +3,9 @@
     justify-content: center;
 }
 @media (max-width: 900px){
+    .header{
+        overflow-x: hidden;
+    }
     .header img{
         width: 375px;
         height: 48px;
