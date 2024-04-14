@@ -2,6 +2,9 @@
     display: flex;
     justify-content: center;
 }
+.header img{
+    width:'100vw'
+}
 @media (max-width: 900px){
     .header{
         overflow-x: hidden;
